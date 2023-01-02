@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>921</width>
-    <height>630</height>
+    <width>1024</width>
+    <height>600</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,8 +19,8 @@
      <rect>
       <x>-10</x>
       <y>0</y>
-      <width>931</width>
-      <height>641</height>
+      <width>1031</width>
+      <height>600</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -32,49 +32,12 @@
     <property name="frameShadow">
      <enum>QFrame::Raised</enum>
     </property>
-    <widget class="QFrame" name="frame_2">
-     <property name="geometry">
-      <rect>
-       <x>240</x>
-       <y>110</y>
-       <width>680</width>
-       <height>510</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">border-style: solid;
-border-width: 1px;
-border-color: rgb(255, 255, 255);
-background-color: rgb(255, 255, 255);
-color: rgb(255, 255, 255);
-border-radius: 10px;</string>
-     </property>
-     <property name="frameShape">
-      <enum>QFrame::StyledPanel</enum>
-     </property>
-     <property name="frameShadow">
-      <enum>QFrame::Raised</enum>
-     </property>
-     <widget class="QLabel" name="cam">
-      <property name="geometry">
-       <rect>
-        <x>20</x>
-        <y>10</y>
-        <width>640</width>
-        <height>480</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-    </widget>
     <widget class="QWidget" name="verticalLayoutWidget">
      <property name="geometry">
       <rect>
        <x>29</x>
        <y>10</y>
-       <width>201</width>
+       <width>271</width>
        <height>109</height>
       </rect>
      </property>
@@ -118,31 +81,158 @@ border-radius: 10px;</string>
       </item>
      </layout>
     </widget>
-    <widget class="QWidget" name="verticalLayoutWidget_2">
+    <widget class="QLabel" name="cam">
      <property name="geometry">
       <rect>
-       <x>50</x>
-       <y>170</y>
-       <width>160</width>
-       <height>291</height>
+       <x>360</x>
+       <y>110</y>
+       <width>640</width>
+       <height>480</height>
       </rect>
      </property>
-     <layout class="QVBoxLayout" name="verticalLayout_4">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QWidget" name="verticalLayoutWidget_4">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>260</y>
+       <width>269</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="save">
       <item>
-       <widget class="QPushButton" name="iniciar">
+       <widget class="QPushButton" name="save_ph">
         <property name="text">
-         <string>Start</string>
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>icons/save.png</normaloff>icons/save.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="terminar">
+       <widget class="QLabel" name="save_ph_tex">
         <property name="text">
-         <string>Stop</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Guardar&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
        </widget>
       </item>
      </layout>
+    </widget>
+    <widget class="QWidget" name="verticalLayoutWidget_3">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>120</y>
+       <width>269</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="take">
+      <item>
+       <widget class="QPushButton" name="take_ph">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>icons/camera.png</normaloff>icons/camera.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="take_ph_tex">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Tomar Foto&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="verticalLayoutWidget_5">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>400</y>
+       <width>269</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="retake">
+      <item>
+       <widget class="QPushButton" name="retake_ph">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>icons/retake.png</normaloff>icons/retake.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="retake_ph_text">
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Volver a tomar foto&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QPushButton" name="close">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>544</y>
+       <width>269</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>Salir</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>icons/close.png</normaloff>icons/close.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>30</height>
+      </size>
+     </property>
     </widget>
    </widget>
   </widget>

@@ -3,8 +3,9 @@ import cv2
 from PyQt5.QtWidgets import QApplication, QLabel, QWidget
 from PyQt5.QtGui import QIcon, QImage, QPixmap
 from PyQt5 import QtWidgets, QtCore
-from PyQt5.QtCore import Qt, QThread, pyqtSlot, pyqtSignal
+from PyQt5.QtCore import Qt, QThread, pyqtSignal
 import numpy as np
+import datetime
 
 import GUI
 
@@ -15,58 +16,76 @@ class app_VRU(QtWidgets.QMainWindow):
         super().__init__()
         self.ui = GUI.Ui_MainWindow()
         self.ui.setupUi(self)
+        self.setWindowTitle("TOLD2 IA")
+        self.start_video()
 
-        self.ui.iniciar.clicked.connect(self.initUI)
-        self.ui.terminar.clicked.connect(self.cancel)
-        #self.ui.iniciar.clicked.connect(self.print)
+        self.ui.save_ph.clicked.connect(self.saveph)
+        self.ui.take_ph.clicked.connect(self.takeph)
+        self.ui.retake_ph.clicked.connect(self.start_video)
+        self.ui.close.clicked.connect(self.salir)
 
-    @pyqtSlot(QImage)
-    def setImage(self, image):
-        self.ui.cam.setPixmap(QPixmap.fromImage(image))
+    def Imageupd_slot(self, Image):
+        self.ui.cam.setPixmap(QPixmap.fromImage(Image))
         
-    def initUI(self):
-        th = Thread(self)
-        th.changePixmap.connect(self.setImage)
-        th.start()
-        self.show()
-        
-    def cancel(self):
-        self.ui.cam.clear()
-        th = Thread(self)
-        th.stop()
+    def start_video(self):
 
-    def takefo(self):
-        capt = cv2.VideoCapture(0)
-        leido, frame = capt.read()
+        self.ui.save_ph.hide()
+        self.ui.save_ph_tex.hide()
+        self.ui.retake_ph.hide()
+        self.ui.retake_ph_text.hide()
+
+        self.ui.take_ph.show()
+        self.ui.take_ph_tex.show()
+
+        self.Work = Work()
+        self.Work.start()
+        self.Work.Imageupd.connect(self.Imageupd_slot)
         
-        if leido == True:
-            cv2.imwrite("foto.png", frame)
-            
-            capt.release()
+    def takeph(self):
+        self.ui.save_ph.show()
+        self.ui.save_ph_tex.show()
+        self.ui.retake_ph.show()
+        self.ui.retake_ph_text.show()
+
+        self.ui.take_ph.hide()
+        self.ui.take_ph_tex.hide()
+
+        global stop
+        stop = True
+        #self.ui.cam.clear()
+
+    def saveph(self):
+        global frame_cache
+        name_fecha = "images/" + str(datetime.datetime.now()) + ".png"
+        cv2.imwrite(name_fecha, frame_cache)
+        self.start_video()
 
     def salir(self):
         sys.exit(app.exec_())
 
-class Thread(QThread):
-    changePixmap = pyqtSignal(QImage)
+class Work(QThread):
+    Imageupd = pyqtSignal(QImage)
 
     def run(self):
         self.hilo_corriendo = True
         cap = cv2.VideoCapture(0)
+        global stop
+        stop = False
         while self.hilo_corriendo:
             ret, frame = cap.read()
-            if ret:
-                # https://stackoverflow.com/a/55468544/6622587
-                rgbImage = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-                h, w, ch = rgbImage.shape
-                bytesPerLine = ch * w
-                convertToQtFormat = QImage(rgbImage.data, w, h, bytesPerLine, QImage.Format_RGB888)
-                p = convertToQtFormat.scaled(640, 480, Qt.KeepAspectRatio)
-                self.changePixmap.emit(p)
-                
-    def stop(self):
-        self.hilo_corriendo = False
-        self.quit()
+            Image = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+            flip = cv2.flip(Image, 1)
+            convertir_QT = QImage(flip.data, flip.shape[1], flip.shape[0], QImage.Format_RGB888)
+            pic = convertir_QT.scaled(640, 480, Qt.KeepAspectRatio)
+            self.Imageupd.emit(pic)
+
+            if stop:
+                global frame_cache
+                frame_cache = frame
+                #cv2.imwrite("foto.png", frame)
+                break
+
+        cap.release()
 
 #Inicio de la interfaz
 if __name__=='__main__':

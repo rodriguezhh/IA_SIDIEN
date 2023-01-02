@@ -1,1 +1,1 @@
-pyuic5 told2_main.ui -o GUI.py
+Convertir .ui to .py: pyuic5 told2_main.ui -o GUI.py
