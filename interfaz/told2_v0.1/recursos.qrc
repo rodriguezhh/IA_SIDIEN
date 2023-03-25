@@ -1,8 +1,0 @@
-<RCC>
-  <qresource prefix="logos">
-    <file>icons/CEMOS.png</file>
-    <file>icons/DICBoT.png</file>
-    <file>icons/told2.png</file>
-    <file>icons/uis.png</file>
-  </qresource>
-</RCC>
