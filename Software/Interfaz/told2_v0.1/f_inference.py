@@ -3,7 +3,7 @@ from tensorflow import keras
 import cv2
 import numpy as np
 
-model_1 = keras.models.load_model('modelo_24.h5')
+model_1 = keras.models.load_model('told2_model.h5')
 img = cv2.imread('tomato1.JPG')
 img = cv2.resize(img, (256, 256))
 img_s = img.astype(np.uint8)
