@@ -14,4 +14,4 @@ En la carpeta Planos, se pueden visualizar las dimensiones exactas de cada una d
 En cuanto a la carpeta STL, se encuentran ubicados los archivos utilizados para la impresion 3D del encapsulado. Se recomienda tener en cuenta que la impresión se realizo con el material PLA de 0.75 mm. 
 
 ## SVG
-En la carpeta SVG, se encuentran los archivos de corte laser que nos prorcionan bases dentro del encapusaldo para organizar los dispositivos, además, se encuentra el archivo del porta muestras el cual facilita la toma de datos. Los cortes se realizaron con un acrílico transparente de 3 mm de grosor. 
+En la carpeta SVG, se encuentran los archivos de corte laser de las piezas que nos proporcionan bases dentro del encapusaldo para organizar los dispositivos, además, se encuentra el archivo del porta muestras el cual facilita la toma de datos. Los cortes se realizaron con un acrílico transparente de 3 mm de grosor. 
