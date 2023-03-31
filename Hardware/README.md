@@ -15,3 +15,9 @@ En cuanto a la carpeta STL, se encuentran ubicados los archivos utilizados para 
 
 ## SVG
 En la carpeta SVG, se encuentran los archivos de corte laser de las piezas que nos proporcionan bases dentro del encapusaldo para organizar los dispositivos, además, se encuentra el archivo del porta muestras el cual facilita la toma de datos. Los cortes se realizaron con un acrílico transparente de 3 mm de grosor. 
+
+# Como se usa
+1. Dirijase a la carpeta STL,  descargue todos los archivos y envielos a impresión 3D.
+2. Dirijase a la carpeta SVG,  descargue todos los archivos y envielos a corte laser. 
+3. Dirijase a la carptea PCB_LED, descargue los planos de impresión .PDF y fabrique su PCB.
+4. Finalmente realice el proceso de ensamblado. 
