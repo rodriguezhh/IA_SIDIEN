@@ -1,7 +1,7 @@
 # Contenido
 Dentro de la carpeta actual, se encuentran todos los archivos relacionados con el hardware utilizados en el proyecto.
 
-## FreeCAD
+## Algoritmos de IA
 En la carpeta FreeCAD, se enceuntran los archivos que corresponeden a las tres diferentes versiones del encapsulado, desarrolladas durante el proceso del proyecto. Estos archivos son una base para los siguiente desarrollos. 
 
 ## PCB_LED
