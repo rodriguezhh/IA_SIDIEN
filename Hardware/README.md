@@ -1,14 +1,14 @@
 # Contenido
-Dentro de la carpeta actual, se encuentran todos los archivos relacionados con el hardware utilizados en el proyecto. Es importante mencionar que los archivos previamente mencionados, fueron revisados y aprobados por personas expertas. 
+Dentro de la carpeta actual, se encuentran todos los archivos relacionados con el hardware utilizados en el proyecto.
 
 ## FreeCAD
-En la carpeta FreeCAD, se enceuntran los tres archivos que corresponedn a los diferentes diseños desarrollados durante el proceso del proyecto. Estos archivos son una base para los siguiente desarrollos. 
+En la carpeta FreeCAD, se enceuntran los archivos que corresponeden a las tres diferentes versiones del encapsulado, desarrolladas durante el proceso del proyecto. Estos archivos son una base para los siguiente desarrollos. 
 
 ## PCB_LED
 La carpeta PCB_led contiene los archivos relacionados con el diseño de la PCB del circuito que proporciona la iluminacion del dispositivo. Este diseño nos permite realizar la toma de las imagenes con un ambiente controlado. 
 
 ## Planos
-En la carpeta Planos, se puede visualizar con precision las dimensiones exactas de cada una de las piezas diseñadas, siendo estas presentadas en planos separados con el objetivo de facilitar su interpretacion. 
+En la carpeta Planos, se pueden visualizar las dimensiones exactas de cada una de las piezas diseñadas, siendo estas presentadas en planos separados con el objetivo de facilitar su interpretacion. 
 
 ## STL
 En cuanto a la carpeta STL, se encuentran ubicados los archivos utilizados para la impresion 3D del encapsulado. Se recomienda tener en cuenta que la impresión se realizo con el material PLA de 0.75 mm. 
