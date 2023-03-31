@@ -10,12 +10,6 @@ La carpeta PCB_led contiene los archivos relacionados con el diseño de la PCB d
 ## Procesamiento_de_imagenes
 En la carpeta Planos, se pueden visualizar las dimensiones exactas de cada una de las piezas diseñadas, siendo estas presentadas en planos separados con el objetivo de facilitar su interpretacion. 
 
-## STL
-En cuanto a la carpeta STL, se encuentran ubicados los archivos utilizados para la impresion 3D del encapsulado. Se recomienda tener en cuenta que la impresión se realizo con el material PLA de 0.75 mm. 
-
-## SVG
-En la carpeta SVG, se encuentran los archivos de corte laser de las piezas que nos proporcionan bases dentro del encapusaldo para organizar los dispositivos, además, se encuentra el archivo del porta muestras el cual facilita la toma de datos. Los cortes se realizaron con un acrílico transparente de 3 mm de grosor. 
-
 # Como se usa
 1. Dirijase a la carpeta STL,  descargue todos los archivos y envielos a impresión 3D.
 2. Dirijase a la carpeta SVG,  descargue todos los archivos y envielos a corte laser. 
