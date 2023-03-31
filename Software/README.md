@@ -1,13 +1,13 @@
 # Contenido
 Dentro de la carpeta actual, se encuentran todos los archivos relacionados con el hardware utilizados en el proyecto.
 
-## Algoritmos de IA
+## Inteligencia_Artificial
 En la carpeta FreeCAD, se enceuntran los archivos que corresponeden a las tres diferentes versiones del encapsulado, desarrolladas durante el proceso del proyecto. Estos archivos son una base para los siguiente desarrollos. 
 
-## PCB_LED
+## Interfaz
 La carpeta PCB_led contiene los archivos relacionados con el diseño de la PCB del circuito que proporciona la iluminacion del dispositivo. Este diseño nos permite realizar la toma de las imagenes con un ambiente controlado. 
 
-## Planos
+## Procesamiento_de_imagenes
 En la carpeta Planos, se pueden visualizar las dimensiones exactas de cada una de las piezas diseñadas, siendo estas presentadas en planos separados con el objetivo de facilitar su interpretacion. 
 
 ## STL
