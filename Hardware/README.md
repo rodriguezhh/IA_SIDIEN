@@ -5,7 +5,7 @@ Dentro de la carpeta actual, se encuentran todos los archivos relacionados con e
 En la carpeta FreeCAD, se enceuntran los tres archivos que corresponedn a los diferentes diseños desarrollados durante el proceso del proyecto. Estos archivos son una base para los siguiente desarrollos. 
 
 ## PCB_LED
-La carpeta PCB_led contiene los archivos relacionados con el diseño de la PCB, la cual  proporciona la iluminacion del dispositivo. Este diseño nos permite realizar la toma de las imagenes con un ambiente controlado. 
+La carpeta PCB_led contiene los archivos relacionados con el diseño de la PCB del circuito que proporciona la iluminacion del dispositivo. Este diseño nos permite realizar la toma de las imagenes con un ambiente controlado. 
 
 ## Planos
 En la carpeta Planos, se puede visualizar con precision las dimensiones exactas de cada una de las piezas diseñadas, siendo estas presentadas en planos separados con el objetivo de facilitar su interpretacion. 
