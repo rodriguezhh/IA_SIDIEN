@@ -1,5 +1,5 @@
 # Contenido
-Dentro de la carpeta actual, se encuentran todos los archivos relacionados con el hardware utilizados en el proyecto.
+Dentro de la carpeta de software, se encuentran todos los archivos relacionados con el procesamiento de los datos del proyecto.
 
 ## Inteligencia_Artificial
 En la carpeta FreeCAD, se enceuntran los archivos que corresponeden a las tres diferentes versiones del encapsulado, desarrolladas durante el proceso del proyecto. Estos archivos son una base para los siguiente desarrollos. 
