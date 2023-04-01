@@ -17,13 +17,21 @@ En La carpeta Interfaz contiene los archivos relacionados con el diseño de la P
 En la carpeta de Procesamiento_de_imagenes, se encuentra el algoritmo de Disivison_datos, con el cual nos permite separar las imagenes en los conjuntos de entrenamiento, validación y prueba, además, se encuentra el algoritmo de Aumento_datos que nos permite generar nuevas imágenes.
 
 # Como se usa
-## Procesamiento de imágenes con IA 
-1. Dirijase a la carpeta de Dataset y descarguela 
+## Creando un modelo 
+NOTA: 
+
+## Desplegando un modelo 
+
+### Librerias y dependencias.
+1. Descargar Python 3.
+
+### Procesamiento de imágenes con IA 
+1. Dirijase a la carpeta de Dataset y descarguela
 2. Dirijase a la carpeta de Procesamiento_de_imagenes, descargue el archivo División_datos.py y ejecutelo.
 3. Dirijase a la carpeta de Procesamiento_de_imagenes, descargue el archivo Aumento_datos.py y ejecutelo. Tenga en cuenta que el código de aumento de datos se realiza en una sola carpeta. 
 4. Dirijase a la carpeta de Modelos de IA, descargue el archivo del modelo de IA que desea probar y ejecutelo. 
 
-## Proceso de despliegue de la IA e interfaz de usuario
+### Proceso de despliegue de la IA e interfaz de usuario
 1. Dirijase a la Procesamiento_de_imagenes,  descargue todos los archivos y envielos a impresión 3D.
 2. Dirijase a la carpeta SVG,  descargue todos los archivos y envielos a corte laser. 
 3. Dirijase a la carptea PCB_LED, descargue los planos de impresión .PDF y fabrique su PCB.
