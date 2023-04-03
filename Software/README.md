@@ -7,32 +7,41 @@ En la carpeta de Dataset, Encontramos la base de datos de 3 enfermedades de la h
 ## Inteligencia_Artificial
 En la carpeta de Inteligencia_Artificial, Encontramos el algoritmo propuesto de jerarquía reducida, además, de los algoritmos de arqquitecturas de transfer learning, que son VGG19, MobileNetV2 y ResNet50.
 
-## Modelos de IA 
-En la carpeta de Modelos de IA , Encontramos los .h5 de los diferentes modelos ya entrenados y dispuestos a usar de las distintas arquitecturas de inteligencia artificial. 
+## Modelos_de_IA 
+En la carpeta de Modelos_de_IA , Encontramos los .h5 de los diferentes modelos ya entrenados y dispuestos a usar de las distintas arquitecturas de inteligencia artificial. 
 
-## Interfaz de usuario 
+## Interfaz_de_usuario 
 En La carpeta Interfaz contiene los archivos relacionados con el diseño de la PCB del circuito que proporciona la iluminacion del dispositivo. Este diseño nos permite realizar la toma de las imagenes con un ambiente controlado. 
 
 ## Procesamiento_de_imagenes
 En la carpeta de Procesamiento_de_imagenes, se encuentra el algoritmo de Disivison_datos, con el cual nos permite separar las imagenes en los conjuntos de entrenamiento, validación y prueba, además, se encuentra el algoritmo de Aumento_datos que nos permite generar nuevas imágenes.
 
+*NOTA: para la instalación del software se recomienda utilizar como mínimo una tarjeta SD de 32GB.
+# Librerias y dependencias para Jetson nano 4GB.
+* Imagen de la tarjeta SD:
+* pyqt
+
+
+# Librerias y dependencias para Rasbpberry pi 4B 4GB.
+* Imagen de la tarjeta SD: 
+* Pyqt
+* opencv
+* Tensorflow
+
+
 # Como se usa
 ## Creando un modelo 
-NOTA: 
-
-## Desplegando un modelo 
-
-### Librerias y dependencias.
-1. Descargar Python 3.
-
-### Procesamiento de imágenes con IA 
 1. Dirijase a la carpeta de Dataset y descarguela
 2. Dirijase a la carpeta de Procesamiento_de_imagenes, descargue el archivo División_datos.py y ejecutelo.
-3. Dirijase a la carpeta de Procesamiento_de_imagenes, descargue el archivo Aumento_datos.py y ejecutelo. Tenga en cuenta que el código de aumento de datos se realiza en una sola carpeta. 
-4. Dirijase a la carpeta de Modelos de IA, descargue el archivo del modelo de IA que desea probar y ejecutelo. 
+3. Dirijase a la carpeta de Procesamiento_de_imagenes, descargue el archivo Aumento_datos.py y ejecutelo en la carpeta de entrenamiento. 
+4. Suba las carpetas a Google Drive.
+5. Cree su modelo en Google Colab, puede tomar como base las arquitecturas propuestas en la carpeta Inteligencia_Artificial
+6. Entrene su modelo y guardelo para que se pueda desplegar. 
 
-### Proceso de despliegue de la IA e interfaz de usuario
-1. Dirijase a la Procesamiento_de_imagenes,  descargue todos los archivos y envielos a impresión 3D.
-2. Dirijase a la carpeta SVG,  descargue todos los archivos y envielos a corte laser. 
-3. Dirijase a la carptea PCB_LED, descargue los planos de impresión .PDF y fabrique su PCB.
-4. Finalmente realice el proceso de ensamblado. 
+* NOTA: si quiere evitar el proceso de entreanmiento y creación de un modelo. puede descargar alguno de la carpeta Modelos_de_IA 
+
+## Despliegue en Jetson nano 4GB.
+1. 
+
+## Despliegue en Rasbpberry pi 4B 4GB.
+1. 
