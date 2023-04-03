@@ -24,6 +24,6 @@ Finalmente, el modelo resultante fue implementado en dos sistemas embebidos, NVI
 Este proyecto se encuentra en constante evolución, por lo que cualquier contribución será bienvenida. Si deseas contribuir, por favor envía un pull request o contacta al equipo de desarrollo.
 
 ## Contacto 
-1) Camilo Andres Santos Ortiz. Correo:camilosantos6584@gmail.com
-2) Harold Hernando Rodriguez Rodriguez. Correo: rodriguezhh03@gmail.com
-3) Wilmer Andres Guerrero Rangel. Correo: andresguerrero1204@gmail.com
+* Camilo Andres Santos Ortiz. camilosantos6584@gmail.com
+* Harold Hernando Rodriguez Rodriguez. rodriguezhh03@gmail.com
+* Wilmer Andres Guerrero Rangel. andresguerrero1204@gmail.com
