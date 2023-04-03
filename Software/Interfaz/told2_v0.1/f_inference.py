@@ -3,8 +3,8 @@ from tensorflow import keras
 import cv2
 import numpy as np
 
-model_1 = keras.models.load_model('told2_model.h5')
-img = cv2.imread('tomato1.JPG')
+model_1 = keras.models.load_model('told2_real.h5')
+img = cv2.imread('tomato8.JPG')
 img = cv2.resize(img, (256, 256))
 img_s = img.astype(np.uint8)
 img = img_s.reshape(1, img_s.shape[0], img_s.shape[1], img_s.shape[2])
