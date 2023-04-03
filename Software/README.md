@@ -10,7 +10,7 @@ En la carpeta de Inteligencia_Artificial, Encontramos el algoritmo propuesto de 
 ## Modelos_de_IA 
 En la carpeta de Modelos_de_IA , Encontramos los .h5 de los diferentes modelos ya entrenados y dispuestos a usar de las distintas arquitecturas de inteligencia artificial. 
 
-## Interfaz_de_usuario 
+## Interfaz
 En La carpeta Interfaz contiene los archivos relacionados con el diseño de la PCB del circuito que proporciona la iluminacion del dispositivo. Este diseño nos permite realizar la toma de las imagenes con un ambiente controlado. 
 
 ## Procesamiento_de_imagenes
