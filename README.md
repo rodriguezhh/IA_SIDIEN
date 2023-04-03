@@ -20,11 +20,11 @@ Finalmente, el modelo resultante fue implementado en dos sistemas embebidos, NVI
 2.
 3.
 
-##Contribución
+## Contribución
 Este proyecto se encuentra en constante evolución, por lo que cualquier contribución será bienvenida. Si deseas contribuir, por favor envía un pull request o contacta al equipo de desarrollo.
 
 ## Contacto 
 Aurores:
- Camilo Andres Santos Ortiz. Correo:camilosantos6584@gmail.com
- Harold Hernando Rodriguez Rodriguez. Correo: rodriguezhh03@gmail.com
- Wilmer Andres Guerrero Rangel. Correo: andresguerrero1204@gmail.com
+Camilo Andres Santos Ortiz. Correo:camilosantos6584@gmail.com
+Harold Hernando Rodriguez Rodriguez. Correo: rodriguezhh03@gmail.com
+Wilmer Andres Guerrero Rangel. Correo: andresguerrero1204@gmail.com
