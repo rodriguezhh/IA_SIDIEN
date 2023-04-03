@@ -7,8 +7,8 @@ En la carpeta de Dataset, Encontramos la base de datos de 3 enfermedades de la h
 ## Inteligencia_Artificial
 En la carpeta de Inteligencia_Artificial, Encontramos el algoritmo propuesto de jerarquía reducida, además, de los algoritmos de arqquitecturas de transfer learning, que son VGG19, MobileNetV2 y ResNet50.
 
-## Modelos_de_IA 
-En la carpeta de Modelos_de_IA , Encontramos los .h5 de los diferentes modelos ya entrenados y dispuestos a usar de las distintas arquitecturas de inteligencia artificial. 
+## Modelos_IA 
+En la carpeta de Modelos_IA , Encontramos los .h5 de los diferentes modelos ya entrenados y dispuestos a usar de las distintas arquitecturas de inteligencia artificial. 
 
 ## Interfaz
 En La carpeta Interfaz contiene los archivos relacionados con el diseño de la PCB del circuito que proporciona la iluminacion del dispositivo. Este diseño nos permite realizar la toma de las imagenes con un ambiente controlado. 
@@ -38,7 +38,7 @@ En la carpeta de Procesamiento_de_imagenes, se encuentra el algoritmo de Disivis
 5. Cree su modelo en Google Colab, puede tomar como base las arquitecturas propuestas en la carpeta Inteligencia_Artificial
 6. Entrene su modelo y guardelo para que se pueda desplegar. 
 
-* NOTA: si quiere evitar el proceso de entreanmiento y creación de un modelo. puede descargar alguno de la carpeta Modelos_de_IA 
+* NOTA: si quiere evitar el proceso de entreanmiento y creación de un modelo. puede descargar alguno de la carpeta Modelos_IA 
 
 ## Despliegue en Jetson nano 4GB.
 1. 
