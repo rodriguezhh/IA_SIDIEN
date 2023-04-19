@@ -1,9 +1,6 @@
 # Contenido
 Dentro de la carpeta de software, se encuentran todos los archivos relacionados con el procesamiento de los datos del proyecto.
 
-## Dataset 
-En la carpeta de Dataset, Encontramos la base de datos de 3 enfermedades de la hoja de la planta del tomate y su hoja sana. Se cuenta con la enfermedad A con XXX imágenes, la enfermedad B con XXX imágenes, la enfermedad C con XXX imágenes y la hoja sana con XXX imágenes. 
-
 ## Inteligencia_Artificial
 En la carpeta de Inteligencia_Artificial, Encontramos el algoritmo propuesto de jerarquía reducida, además, de los algoritmos de arqquitecturas de transfer learning, que son VGG19, MobileNetV2 y ResNet50.
 
