@@ -13,6 +13,9 @@ Finalmente, el modelo resultante fue implementado en dos sistemas embebidos, NVI
 ## Video sobre el desarrollo del proyecto.
 https://youtu.be/ES93pp3hpe4
 
+## Drive del proyecto.
+https://drive.google.com/drive/folders/18Io3CUIHZYFtg3d0LMKD3wjqCA_87UzG?usp=sharing
+
 ## Manual de Usuario 
 ### Paso a paso del Hardware
 1.
