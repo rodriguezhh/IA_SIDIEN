@@ -10,7 +10,7 @@ Se entrenó una inteligencia artificial de jerarquía simplificada y tres modelo
 
 Finalmente, el modelo resultante fue implementado en dos sistemas embebidos, NVIDIA Jetson Nano de 4GB y Raspberry pi 4B. Se realizó un análisis comparativo de los resultados obtenidos para validar su rendimiento en ambas tarjetas de desarrollo.
 
-## Video Demostrativo.
+## Video sobre el desarrollo del proyecto.
 https://youtu.be/ES93pp3hpe4
 
 ## Manual de Usuario 
