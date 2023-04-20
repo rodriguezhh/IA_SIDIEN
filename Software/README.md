@@ -19,14 +19,14 @@ En la carpeta de Procesamiento_de_imagenes, se encuentra el algoritmo de Disivis
 *NOTA: para la instalación del software se recomienda utilizar como mínimo una tarjeta SD de 32GB.
 # Librerias y dependencias para Jetson nano 4GB.
 * Imagen de la tarjeta SD: https://github.com/Qengineering/Jetson-Nano-image.git
-* PyQt5 5.15.6
+* PyQt5 5.10.1
 
 
 # Librerias y dependencias para Rasbpberry pi 4B 4GB.
 * Imagen de la tarjeta SD: 
-* Pyqt
-* opencv
-* Tensorflow
+* PyQt5 5.15.2
+* opencv 4.7.0.68
+* Tensorflow 2.12
 
 
 # Como se usa
@@ -48,4 +48,7 @@ En la carpeta de Procesamiento_de_imagenes, se encuentra el algoritmo de Disivis
 5. Para ejecutar la interfaz, abra una terminal en la carpeta donde se encuentra em main.py, y ejecute el siguiente comando: `python3 main.py`
 
 ## Despliegue en Rasbpberry pi 4B 4GB.
-1. 
+1. Descargue el software Raspberry PI Imager (https://www.raspberrypi.com/software/), asegurese que sea compatible con el sistema operativo de su equipo.
+2. Usando Raspberry PI Imager seleccione la imagen correspondiente a la Raspberry PI 4B e instalela en la tarjeta SD.
+3. Instale las dependencias requeridas, las cuales son OpenCV, PyQt5 y tensorflow usando el comando `pip install`.
+4. Finalmente realice los pasos del 3 al 5, descritos en el Despliegue para Jetson nano 4GB.
