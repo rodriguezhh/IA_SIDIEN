@@ -1,11 +1,14 @@
 # Contenido
 Dentro de la carpeta de software, se encuentran todos los archivos relacionados con el procesamiento de los datos del proyecto.
 
+## Base de datos
+En el siguiente link se encuentra la base de datos:https://drive.google.com/drive/folders/1tE_-uaknxtAyiTTtgUqdADf2sIitAHyi?usp=share_link.
+
 ## Inteligencia_Artificial
 En la carpeta de Inteligencia_Artificial, Encontramos el algoritmo propuesto de jerarquía reducida, además, de los algoritmos de arqquitecturas de transfer learning, que son VGG19, MobileNetV2 y ResNet50.
 
 ## Modelos_IA 
-En la carpeta de Modelos_IA , Encontramos los .h5 de los diferentes modelos ya entrenados y dispuestos a usar de las distintas arquitecturas de inteligencia artificial. 
+En el siguiente link: https://drive.google.com/drive/folders/1_pJdKnspFUj5AHXt6KV58SqsYDc62IjV?usp=sharing. Se encuentra los .h5 de los diferentes modelos ya entrenados y dispuestos a usar de las distintas arquitecturas de inteligencia artificial. 
 
 ## Interfaz
 En La carpeta Interfaz contiene los archivos relacionados con el diseño de la PCB del circuito que proporciona la iluminacion del dispositivo. Este diseño nos permite realizar la toma de las imagenes con un ambiente controlado. 
