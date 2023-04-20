@@ -18,7 +18,7 @@ En la carpeta de Procesamiento_de_imagenes, se encuentra el algoritmo de Disivis
 
 *NOTA: para la instalación del software se recomienda utilizar como mínimo una tarjeta SD de 32GB.
 # Librerias y dependencias para Jetson nano 4GB.
-* Imagen de la tarjeta SD:
+* Imagen de la tarjeta SD: https://github.com/Qengineering/Jetson-Nano-image.git
 * PyQt5 5.15.6
 
 
@@ -41,7 +41,9 @@ En la carpeta de Procesamiento_de_imagenes, se encuentra el algoritmo de Disivis
 * NOTA: si quiere evitar el proceso de entreanmiento y creación de un modelo. puede descargar alguno de la carpeta Modelos_IA 
 
 ## Despliegue en Jetson nano 4GB.
-1. 
+1. Instale la imagen de la Jetson nano en la memoria SD siguiendo los pasos del repositorio de GitHub https://github.com/Qengineering/Jetson-Nano-image.git
+2. Instale las dependenciaas requeridas por la Jetson Nano de 4 GB. Unicamente instale PyQt5 ya que en la imagen instalada anteriormente se encuentran la mayoría de librerias necesarias para el funcionamiento del sistema.
+3. Una vez instaladas las librerías necesarias, descargue la carpeta 
 
 ## Despliegue en Rasbpberry pi 4B 4GB.
 1. 
