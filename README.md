@@ -28,7 +28,8 @@ https://drive.google.com/drive/folders/18Io3CUIHZYFtg3d0LMKD3wjqCA_87UzG?usp=sha
  En caso de que el dispositivo TOLD2 no encienda, conecte el cargador en el puerto al costado del dispositivo TOLD2. 
 
 ### Paso a paso de la Interfaz de usuario 
-1. Al iniciar el dispositivo, debe observar la siguiente pantalla. 
+1. Al iniciar el dispositivo, debe observar la siguiente pantalla.
+![Alt Text](https://i.imgur.com/vDMGVeG.jpg)
 2. Haga doble click sobre el icono "hacer detección". Acontinuación se debe abrir una interfaz como la siguiente. Asegurese de abrir el software unicamente con dos clicks, de lo contrario se abrirá más de una ventana.
 3. Captue la imagen haciendo click en el boton "Tomar foto". 
 4. Haga click en el botón "hacer detección". 
