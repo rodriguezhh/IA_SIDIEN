@@ -22,9 +22,9 @@ https://drive.google.com/drive/folders/18Io3CUIHZYFtg3d0LMKD3wjqCA_87UzG?usp=sha
 1. Accione el interruptor para encender el dispositivo TOLD2.
 ![Alt Text](https://i.imgur.com/p2V2Ppc.png)
 2. Si va a hacer uso del porta muestras, accione el interruptor para encender la luz del dispositivo TOLD2.
-3. ![Alt Text](https://i.imgur.com/mqMmWQr.png)
-4. Seleccione la muestra de hoja de la plante del tomate que desea inspeccionar y asegurela con el alfiler en el porta muestras y depositela. 
-5. Diríjase al apartado ’Paso a paso de la interfaz de usuario’ para proceder con el diagnóstico.
+![Alt Text](https://i.imgur.com/mqMmWQr.png)
+3. Seleccione la muestra de hoja de la plante del tomate que desea inspeccionar y asegurela con el alfiler en el porta muestras y depositela. 
+4. Diríjase al apartado ’Paso a paso de la interfaz de usuario’ para proceder con el diagnóstico.
 
  ### NOTA: 
  En caso de que el dispositivo TOLD2 no encienda, conecte el cargador en el puerto al costado del dispositivo TOLD2. 
