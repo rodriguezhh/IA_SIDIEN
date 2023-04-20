@@ -31,6 +31,7 @@ https://drive.google.com/drive/folders/18Io3CUIHZYFtg3d0LMKD3wjqCA_87UzG?usp=sha
 1. Al iniciar el dispositivo, debe observar la siguiente pantalla.
 ![Alt Text](https://i.imgur.com/vDMGVeG.jpg)
 2. Haga doble click sobre el icono "hacer detección". Acontinuación se debe abrir una interfaz como la siguiente. Asegurese de abrir el software unicamente con dos clicks, de lo contrario se abrirá más de una ventana.
+![Alt Text](https://i.imgur.com/xNTVolu.png)
 3. Captue la imagen haciendo click en el boton "Tomar foto". 
 4. Haga click en el botón "hacer detección". 
 5. Finalemte podra observar un diagnóstico de su hoja, además. Si desea realizar otra predicción puede hacer click sobre ”Nueva detección" y repita el proceso cuantas veces desee.
