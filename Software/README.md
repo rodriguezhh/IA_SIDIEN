@@ -1,5 +1,5 @@
 # Contenido
-Dentro de la carpeta de software, se encuentran todos los archivos relacionados con el procesamiento de los datos del proyecto.
+Dentro de esta carpeta, se encuentran todos los archivos relacionados con el procesamiento de los datos del proyecto.
 
 ## Base de datos
 En el siguiente link se encuentra la base de datos:https://drive.google.com/drive/folders/1tE_-uaknxtAyiTTtgUqdADf2sIitAHyi?usp=share_link.
@@ -19,7 +19,7 @@ En la carpeta de Procesamiento_de_imagenes, se encuentra el algoritmo de Disivis
 *NOTA: para la instalación del software se recomienda utilizar como mínimo una tarjeta SD de 32GB.
 # Librerias y dependencias para Jetson nano 4GB.
 * Imagen de la tarjeta SD:
-* pyqt
+* PyQt5 5.15.6
 
 
 # Librerias y dependencias para Rasbpberry pi 4B 4GB.
