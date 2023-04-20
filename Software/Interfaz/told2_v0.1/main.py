@@ -73,9 +73,9 @@ class app_VRU(QtWidgets.QMainWindow):
         self.ui.redetec_tex.show()
 
         global frame_cache
-        frame_cache = cv2.resize(frame_cache, (256, 256))
+        frame_cache = cv2.resize(frame_cache, (224, 224))
 
-        model_1 = keras.models.load_model('model.h5')
+        model_1 = keras.models.load_model('modelo_ResNet50.h5')
         img = frame_cache.astype(np.uint8)
         img = img.reshape(1, img.shape[0], img.shape[1], img.shape[2])
         self.predictions = model_1.predict(img)
@@ -84,20 +84,20 @@ class app_VRU(QtWidgets.QMainWindow):
         percent = round(self.predictions[0,result]*100)
 
         if result == 0:
-            res = str(percent) + '% Mancha marrón'
+            res = str(percent) + '% Tizón Temprano'
             comment = 'Se recomienda que consulte a su agronomo asesor de confianza'
 
         elif result == 1:
-            res = str(percent) + '% Hongo'
+            res = str(percent) + '% Tizón tardío'
             comment = 'Se recomienda que consulte a su agronomo asesor de confianza'
 
         elif result == 2:
-            res = str(percent) + '% Mosaico'
-            comment = 'Se recomienda que consulte a su agronomo asesor de confianza'
-
-        else:
             res = str(percent) + '% Hoja sana'
             comment = 'Felicidades su planta está sana'
+
+        else:
+            res = str(percent) + '% Virus del mosaico'
+            comment = 'Se recomienda que consulte a su agronomo asesor de confianza'
 
         self.ui.result.setStyleSheet("color: white;")
         self.ui.result.setText(res)
