@@ -41,6 +41,8 @@ https://drive.google.com/drive/folders/18Io3CUIHZYFtg3d0LMKD3wjqCA_87UzG?usp=sha
 4. Haga click en el botón "hacer detección". 
 5. Finalemte podra observar un diagnóstico de su hoja, además. Si desea realizar otra predicción puede hacer click sobre ”Nueva detección" y repita el proceso cuantas veces desee.
 
+![Alt Text](https://i.imgur.com/TR2TPnx.png)
+
 ## Contribución
 Este proyecto se encuentra en constante evolución, por lo que cualquier contribución será bienvenida. Si deseas contribuir, por favor envía un pull request o contacta al equipo de desarrollo.
 
