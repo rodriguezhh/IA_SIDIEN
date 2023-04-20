@@ -45,6 +45,7 @@ En la carpeta de Procesamiento_de_imagenes, se encuentra el algoritmo de Disivis
 2. Instale las dependenciaas requeridas por la Jetson Nano de 4 GB. Unicamente instale PyQt5 ya que en la imagen instalada anteriormente se encuentran la mayoría de librerias necesarias para el funcionamiento del sistema.
 3. Una vez instaladas las librerías necesarias, descargue la carpeta https://github.com/rodriguezhh/IA_SIDIEN/tree/main/Software/Interfaz/told2_v0.1. Esta carpeta contiene los archivos y recursos necesarios para el funcionamiento de la interfaz de detección.
 4. Descargue el modelo ResNet50 entrenado del siguiente link https://drive.google.com/file/d/1AAf66BFohPHkJcNdAy4Eeix6V2cA7vEN/view?usp=share_link y agreguelo a la carpeta que descargó en el paso anterior.
+5. Para ejecutar la interfaz, abra una terminal en la carpeta donde se encuentra em main.py, y ejecute el siguiente comando: 'python3 main.py'
 
 ## Despliegue en Rasbpberry pi 4B 4GB.
 1. 
