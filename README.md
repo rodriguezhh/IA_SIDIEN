@@ -28,6 +28,7 @@ https://drive.google.com/drive/folders/18Io3CUIHZYFtg3d0LMKD3wjqCA_87UzG?usp=sha
 2. Inicie el software ----- Acontinuación se debe abrir una interfaz, como la siguiente. Asegurese de abrir el software unicamente con dos clicks, de lo contrario se abrirá más de una ventana.
 3. Tome la foto 
 4. Realice el diagnóstico 
+5. Finalemte podra observar un resumen de su trabajo con la respectiva predicción, además, si presenta alguna anomalia no dude en agregar un comentario.Si desea realizar otra predicción puede darle click a ”Nuevo Chequeo".
 
 ## Contribución
 Este proyecto se encuentra en constante evolución, por lo que cualquier contribución será bienvenida. Si deseas contribuir, por favor envía un pull request o contacta al equipo de desarrollo.
