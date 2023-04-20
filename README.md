@@ -18,13 +18,16 @@ https://drive.google.com/drive/folders/18Io3CUIHZYFtg3d0LMKD3wjqCA_87UzG?usp=sha
 
 ## Manual de Usuario 
 ### Paso a paso del Hardware
-1.
-2.
-3.
+1. Accione el interruptor para encender el dispositivo TOLD2. 
+2. Si va a hacer uso del porta muestras, accione el interruptor para encender la luz del TOLD2.
+3. Seleccione la muestra de hoja de la plante del tomate que desea inspeccionar y asegurela con el alfiler en el porta muestras y depositela. 
+4. Diríjase al apartado ’Paso a paso de la interfaz de usuario’ para proceder con el diagnóstico.
+
 ### Paso a paso de la Interfaz de usuario 
 1.
-2.
-3.
+2. Inicie el software ----- Acontinuación se debe abrir una interfaz, como la siguiente. Asegurese de abrir el software unicamente con dos clicks, de lo contrario se abrirá más de una ventana.
+3. Tome la foto 
+4. Realice el diagnóstico 
 
 ## Contribución
 Este proyecto se encuentra en constante evolución, por lo que cualquier contribución será bienvenida. Si deseas contribuir, por favor envía un pull request o contacta al equipo de desarrollo.
