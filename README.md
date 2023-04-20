@@ -27,8 +27,6 @@ https://drive.google.com/drive/folders/18Io3CUIHZYFtg3d0LMKD3wjqCA_87UzG?usp=sha
 
 <div style="text-align:center"><img src="https://i.imgur.com/YeGkmpO.jpg" /></div>
 
-![Alt Text](https://i.imgur.com/YeGkmpO.jpg)
-
 4. Diríjase al apartado ’Paso a paso de la interfaz de usuario’ para proceder con el diagnóstico.
 
  ### NOTA: 
