@@ -1,4 +1,4 @@
-![Alt Text](https://imgur.com/jgLlu2G)
+![Alt Text](https://ibb.co/3Y3z3nY)
 # DIAGNÓSTICO DE ENFERMEDADES EN LA HOJA DEL TOMATE MEDIANTE UN SISTEMA EMBEBIDO USANDO INTELIGENCIA ARTIFICIAL E IMÁGENES.
 
 ## Descripción del sistema
