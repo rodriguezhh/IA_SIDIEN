@@ -22,8 +22,9 @@ https://drive.google.com/drive/folders/18Io3CUIHZYFtg3d0LMKD3wjqCA_87UzG?usp=sha
 1. Accione el interruptor para encender el dispositivo TOLD2.
 ![Alt Text](https://i.imgur.com/mqMmWQr.png)
 2. Si va a hacer uso del porta muestras, accione el interruptor para encender la luz del dispositivo TOLD2.
-3. Seleccione la muestra de hoja de la plante del tomate que desea inspeccionar y asegurela con el alfiler en el porta muestras y depositela. 
-4. Diríjase al apartado ’Paso a paso de la interfaz de usuario’ para proceder con el diagnóstico.
+3. ![Alt Text](https://i.imgur.com/mqMmWQr.png)
+4. Seleccione la muestra de hoja de la plante del tomate que desea inspeccionar y asegurela con el alfiler en el porta muestras y depositela. 
+5. Diríjase al apartado ’Paso a paso de la interfaz de usuario’ para proceder con el diagnóstico.
 
  ### NOTA: 
  En caso de que el dispositivo TOLD2 no encienda, conecte el cargador en el puerto al costado del dispositivo TOLD2. 
@@ -32,7 +33,7 @@ https://drive.google.com/drive/folders/18Io3CUIHZYFtg3d0LMKD3wjqCA_87UzG?usp=sha
 1. Al iniciar el dispositivo, debe observar la siguiente pantalla.
 ![Alt Text](https://i.imgur.com/vDMGVeG.jpg)
 2. Haga doble click sobre el icono "hacer detección". Acontinuación se debe abrir una interfaz como la siguiente. Asegurese de abrir el software unicamente con dos clicks, de lo contrario se abrirá más de una ventana.
-![Alt Text](https://i.imgur.com/xNTVolu.png)
+![Alt Text](https://i.imgur.com/zbWsorS.png)
 3. Captue la imagen haciendo click en el boton "Tomar foto". 
 4. Haga click en el botón "hacer detección". 
 5. Finalemte podra observar un diagnóstico de su hoja, además. Si desea realizar otra predicción puede hacer click sobre ”Nueva detección" y repita el proceso cuantas veces desee.
