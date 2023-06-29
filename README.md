@@ -25,7 +25,7 @@ https://drive.google.com/drive/folders/18Io3CUIHZYFtg3d0LMKD3wjqCA_87UzG?usp=sha
 ![Alt Text](https://i.imgur.com/mqMmWQr.png)
 3. Seleccione la muestra de hoja de la plante del tomate que desea inspeccionar y asegurela con el alfiler en el porta muestras y depositela.
 
-<div style="text-align:center"><img src="https://i.imgur.com/YeGkmpO.jpg" /></div>
+|<div style="text-align:center"><img src="https://i.imgur.com/YeGkmpO.jpg" /></div>|
 
 4. Diríjase al apartado ’Paso a paso de la interfaz de usuario’ para proceder con el diagnóstico.
 
